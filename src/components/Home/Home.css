@@ -1,0 +1,18 @@
+.title{
+    color: #191829;
+    font-weight: bold;
+}
+
+.Name{
+    color: crimson;
+    font-weight: bold;
+}
+
+.live-btn{
+    background-color: #002043;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #fe908a;
+    padding: 5px;
+}
