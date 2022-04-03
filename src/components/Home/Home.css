@@ -8,11 +8,13 @@
     font-weight: bold;
 }
 
-.live-btn{
+.live-btn, .see-more-btn{
     background-color: #002043;
     color: white;
     font-weight: bold;
     border-radius: 10px;
     border: 2px solid #fe908a;
-    padding: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    
 }
