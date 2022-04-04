@@ -10,6 +10,7 @@ const Dashboard = () => {
         <div className='row row-cols-1 row-cols-md-3 g-4 mt-5'>
             
             <div className="line-chart col">
+                <h3>Month vs Investment</h3>
                 <LineChart width={400} height={400} data={values}>
                    
                     <Line type="monotone" dataKey="revenue" stroke="#8884d8" /> 
@@ -22,6 +23,8 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div className="area-chart col">
+            <h3>Sell and Investment</h3>
+
             <AreaChart width={400} height={400} data={values}>
                    
                    
@@ -35,6 +38,7 @@ const Dashboard = () => {
                </AreaChart>
             </div>
             <div className="bar-chart col">
+            <h3>Month vs Investment with revenue</h3>
                 <BarChart width={400} height={400} data={values}>
                     <Bar type="monotone" dataKey="investment" stroke="black"></Bar>
                     <Bar type="monotone" dataKey="revenue" stroke="red"></Bar>
