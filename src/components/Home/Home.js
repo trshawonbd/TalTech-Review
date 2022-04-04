@@ -32,7 +32,7 @@ const Home = () => {
             </div>
 
             <h3 className='mt-5'>Reviews</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div className="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 {
                     firstThree.map((review) => <Review
                         key={review._id}
