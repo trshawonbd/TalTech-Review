@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Area, AreaChart, Bar, BarChart, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import useDashboard from '../../Hooks/useDashboard';
 
 const Dashboard = () => {
@@ -18,6 +18,7 @@ const Dashboard = () => {
                      
                     <XAxis dataKey={'month'}></XAxis>
                     <YAxis dataKey={'investment'}></YAxis>
+                    <Tooltip />
 
                     
                 </LineChart>
@@ -33,6 +34,7 @@ const Dashboard = () => {
                     
                    <XAxis dataKey={'sell'}></XAxis>
                    <YAxis dataKey={'investment'}></YAxis>
+                   <Tooltip />
 
                    
                </AreaChart>
@@ -44,6 +46,7 @@ const Dashboard = () => {
                     <Bar type="monotone" dataKey="revenue" stroke="red"></Bar>
                     <XAxis dataKey={'month'}></XAxis>
                    <YAxis dataKey={'investment'}></YAxis>
+                   <Tooltip />
                    </BarChart>
                 
             </div>
