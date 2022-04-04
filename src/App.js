@@ -8,6 +8,7 @@ import Dashboard from '../src/components/Dashboard/Dashboard';
 import Blogs from '../src/components/Blogs/Blogs';
 import { createContext } from 'react';
 import useReviews from './Hooks/useReviews';
+import NotFound from './components/NotFound/NotFound';
 
 export const ReviewsContext = createContext([])
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/reviews" element={<Reviews></Reviews>} />
           <Route path="/dashboard" element={<Dashboard></Dashboard>} />
           <Route path="/blogs" element={<Blogs></Blogs>} />
+          <Route path="*" element={<NotFound></NotFound>} />
         </Routes>
 
       </div>
