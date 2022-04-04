@@ -14,7 +14,7 @@ const Home = () => {
     console.log(navigate)
     return (
         <div>
-            <div className='d-flex align-items-center'>
+            <div className='d-md-flex align-items-center'>
                 <div className="info d-flex-column ">
                     <div className="title-part">
                         <h2 className='title'>Your Future University</h2>

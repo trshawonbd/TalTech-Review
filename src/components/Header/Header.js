@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='d-flex align-items-center justify-content-around '>
+        <div className='d-md-flex align-items-center justify-content-around '>
             <div className="logo-container d-flex justify-content-center align-items-center">
                 <div className="logo">
                     <img src={logo} alt="" srcset="" />
